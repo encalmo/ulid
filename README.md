@@ -1,3 +1,5 @@
+![Maven Central Version](https://img.shields.io/maven-central/v/org.encalmo/ulid_3?style=for-the-badge)
+
 # ULID
 
 Scala 3 implementation of the ULID: `Universally Unique Lexicographically Sortable Identifier`.
