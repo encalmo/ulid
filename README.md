@@ -1,4 +1,4 @@
-![Maven Central Version](https://img.shields.io/maven-central/v/org.encalmo/ulid_3?style=for-the-badge)
+<a href="https://github.com/encalmo/ulid">![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)</a> <a href="https://central.sonatype.com/artifact/org.encalmo/ulid_3" target="_blank">![Maven Central Version](https://img.shields.io/maven-central/v/org.encalmo/ulid_3?style=for-the-badge)</a> <a href="https://encalmo.github.io/ulid/scaladoc/org/encalmo/models.html" target="_blank"><img alt="Scaladoc" src="https://img.shields.io/badge/docs-scaladoc-red?style=for-the-badge"></a>
 
 # ULID
 
@@ -35,19 +35,18 @@ Example ULID identifiers:
 
 ## Dependencies
 
-- Scala >= 3.3.5 LTS
-- [encalmo/opaque-type](https://github.com/encalmo/opaque-type)
-
+   - [Scala](https://www.scala-lang.org) >= 3.3.5
+   - org.encalmo [**opaque-type** 0.9.1](https://central.sonatype.com/artifact/org.encalmo/opaque-type_3)
 
 ## Usage
 
 Use with SBT
 
-    libraryDependencies += "org.encalmo" %% "ulid" % "0.9.0"
+    libraryDependencies += "org.encalmo" %% "ulid" % "0.9.1"
 
 or with SCALA-CLI
 
-    //> using dep org.encalmo::ulid:0.9.0
+    //> using dep org.encalmo::ulid:0.9.1
 
 ## Example
 
